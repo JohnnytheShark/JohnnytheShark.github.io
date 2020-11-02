@@ -18,9 +18,17 @@ h1 {
       grid-template-columns: auto auto;
   padding: 20px;
   text-align: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  gap: 1em;
+  margin-bottom: 10px;
 }
 
 #Bio p {
@@ -28,7 +36,7 @@ h1 {
 }
 
 #Bio img {
-  width: 20vh;
+  width: 60%;
 }
 
 #Bio button {
@@ -65,9 +73,9 @@ h1 {
   #Bio {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+  #Bio img {
+    width: 40%;
   }
 }
 /*# sourceMappingURL=home-body.css.map */
