@@ -1,35 +1,13 @@
-<<<<<<< HEAD
-$headerfont: 'Lato', sans-serif;
-$bodyfont: 'Fjalla One' sans-serif;
-
-h1,h2,h3,h4,h5,h6{
-    font-family: $headerfont;
-}
-p{
-    font-family: $bodyfont;
-=======
 $bodyfont: 'Lato', sans-serif;
 $headerFont: 'Fjalla One', sans-serif;
 h1{
     font-family: $bodyfont;
     margin: 10px;
     font-size: 2vw;
->>>>>>> TestingBranch
 }
 #intro{
     text-align: center;
     margin: 10px;
-<<<<<<< HEAD
-    padding: 20px;
-}
-#about{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background: #2F3061;
-    color: white;
-    padding: 20px;
-=======
 }
 #Bio{
     color: white;
@@ -86,5 +64,4 @@ h1{
             width: 40%;
         }
     }
->>>>>>> TestingBranch
 }
