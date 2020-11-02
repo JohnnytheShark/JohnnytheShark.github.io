@@ -1,9 +1,22 @@
-$bodyfont: 'Lato', sans-serif;
+$headerfont: 'Lato', sans-serif;
+$bodyfont: 'Fjalla One' sans-serif;
 
-h1{
-    font-family: $bodyfont
+h1,h2,h3,h4,h5,h6{
+    font-family: $headerfont;
+}
+p{
+    font-family: $bodyfont;
 }
 #intro{
     text-align: center;
     margin: 10px;
+    padding: 20px;
+}
+#about{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #2F3061;
+    color: white;
+    padding: 20px;
 }

@@ -1,9 +1,23 @@
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;
+}
+
+p {
+  font-family: "Fjalla One" sans-serif;
 }
 
 #intro {
   text-align: center;
   margin: 10px;
+  padding: 20px;
+}
+
+#about {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #2F3061;
+  color: white;
+  padding: 20px;
 }
 /*# sourceMappingURL=home-body.css.map */
