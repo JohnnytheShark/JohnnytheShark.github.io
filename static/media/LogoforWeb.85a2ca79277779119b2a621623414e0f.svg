@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 491 482" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" xmlnsSerif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-135.465,-406.637)">
+        <rect id="Artboard1" x="0" y="0" width="750" height="1334" style="fill:none;"/>
+        <g id="Artboard11" serifId="Artboard1">
+            <g>
+                <g transform="matrix(1.16509,0,0,1.00415,-86.5729,136.424)">
+                    <path d="M401.157,275.131C444.026,309.681 494.579,333.485 546.382,343.514C555.205,402.404 576.145,459.873 606.537,508.606C576.145,557.339 555.205,614.808 546.382,673.697C494.579,683.726 444.026,707.531 401.157,742.08C358.288,707.531 307.734,683.726 255.931,673.697C247.109,614.808 226.169,557.339 195.777,508.606C226.169,459.873 247.109,402.404 255.931,343.514C307.734,333.485 358.288,309.681 401.157,275.131Z" style="fill:none;stroke:rgb(255,255,255);stroke-width:11.14px;"/>
+                </g>
+                <g transform="matrix(14.5363,0,0,14.5363,-5050.39,-8524.46)">
+                    <g transform="matrix(24,0,0,24,379.067,639.39)">
+                    </g>
+                    <text x="368.219px" y="639.39px" style="font-family:'Mindset';font-size:24px;fill:#FFF;">J</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
