@@ -1,0 +1,30 @@
+.App{
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    p{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    h1,h2,h3,h4,h5,a, button{
+        font-family: 'Fjalla One', sans-serif;
+    }
+    main{
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    body{
+        background: rgb(255, 255, 255);
+    }
+}
+
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }

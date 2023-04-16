@@ -1,0 +1,52 @@
+.SmallApp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px;
+    place-items: center;
+    overflow-x: auto;
+}
+.Results{
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+input,select,label{
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 2px;
+}
+input[name="InterestRate"]{
+    &::after{
+        content: "%"
+    }
+}
+menu{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    menu{
+        width: 100%;
+        font-size: 0.75em;
+    }
+    .Results{
+        flex-direction: column;
+        width: 200px;
+    }
+    .SmallApp{
+        padding: 0px;
+        margin:0px;
+    }
+}
