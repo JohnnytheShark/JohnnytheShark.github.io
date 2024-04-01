@@ -1,4 +1,5 @@
-
+import Table from '../components/Table/Table';
+import data from '../data/Scripts.json';
 const Home = () => {
     return (<div className="Container">
             <main>
@@ -21,7 +22,7 @@ const Home = () => {
            </article>
            <article className="accomplishments">
             <span>
-            <h1>Accomplishments</h1>
+            <h1>Expertise in Action:</h1>
             <ul>
                 <li>Empowered accounting department with automation: Freed up 100+ hours/month by scripting daily tasks with PowerShell, Python, & SQL, enabling them to focus on high-impact strategic work.</li>
                 <li>Modernized legacy applications: Transformed outdated .asp sites into accessible, user-friendly .NET & React web apps, boosting productivity across the board.</li>
@@ -36,9 +37,17 @@ const Home = () => {
                     </picture>
                 </figure>
            </article>
-           <article>
-            <h1>Testimonials</h1>
+           <article className="solutions">
+            <h1>Solutions:</h1>
+            <p>I&apos;m a big believer in open source solutions and building in house solutions.</p>
+            <p>Below you will find some scripts/repositories that I have created (click on any table row it will direct you to the site or repository):</p>
+            <Table arialabel={"Scripts Built by Jonathan"} caption="Scripts" data={data}/>
            </article>
+           <aside className="currentStatus">
+            <h1>Elevating My Tech Leadership</h1><br/>
+            <p>I&apos;m actively broadening my horizons as a developer and leader, sharpening my algorithmic problem-solving acumen, and delving into the Rust Programming Language to forge new paths in efficient and safe code design.</p><br/><br/>
+            <a role="button" className="Invite Bounce" href="/Updated Resume (1).pdf" download="Resume.pdf">Download my Resume</a>
+           </aside>
            </div>
     );
 }

@@ -1,0 +1,37 @@
+[
+    {
+        "Title":"PowerShell Repository",
+        "Description":"This dynamic repository is your one-stop destination for a curated collection of PowerShell scripts—each crafted, customized, or enhanced to streamline a variety of tasks. Dive in and discover tools that can transform your workflow",
+        "URL":"https://github.com/JohnnytheShark/Powershell"
+    },
+    {
+        "Title":"Python Projects Repository",
+        "Description":"Repository hosting different Python Projects or Scripts that I've created.",
+        "URL":"https://github.com/JohnnytheShark/Python-Projects"
+    },
+    {
+        "Title": "React Mermaid.JS",
+        "Description":"Simple Example of using Mermaid.js library to create UML diagrams with React. Make sure to open in Firefox or on Desktop for the page to render correctly.",
+        "URL":"https://johnnytheshark.github.io/React_Mermaid/"
+    },
+    {
+        "Title":"Visual Studio Macros",
+        "Description":"Repository hosting Excel Macros that I have built. These are more like coding snippets used for larger projects.",
+        "URL":"https://github.com/JohnnytheShark/VisualBasicCommands/tree/main"
+    },
+    {
+        "Title":"SQL",
+        "Description":"Just a few snippets of code to showcase capabilities of using SQL.",
+        "URL":"https://github.com/JohnnytheShark/SQL"
+    },
+    {
+        "Title":"Productivity Scripts",
+        "Description":"Mix of Python and Powershell Scripts used to either make folders, or organize items.",
+        "URL":"https://github.com/JohnnytheShark/Productivity"
+    },
+    {
+        "Title":"Simple ASP.NET API Example",
+        "Description":"Simple Example of building an API utilizing ASP.NET",
+        "URL":"https://github.com/JohnnytheShark/SimpleAPI"
+    }
+]
