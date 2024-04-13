@@ -5,14 +5,14 @@
         "URL":"https://github.com/JohnnytheShark/Powershell"
     },
     {
+        "Title":"SQL",
+        "Description":"Just a few snippets of code to showcase capabilities of using SQL.",
+        "URL":"https://github.com/JohnnytheShark/SQL"
+    },
+    {
         "Title":"Python Projects Repository",
         "Description":"Repository hosting different Python Projects or Scripts that I've created.",
         "URL":"https://github.com/JohnnytheShark/Python-Projects"
-    },
-    {
-        "Title": "React Mermaid.JS",
-        "Description":"Simple Example of using Mermaid.js library to create UML diagrams with React. Make sure to open in Firefox or on Desktop for the page to render correctly.",
-        "URL":"https://johnnytheshark.github.io/React_Mermaid/"
     },
     {
         "Title":"Visual Studio Macros",
@@ -20,9 +20,9 @@
         "URL":"https://github.com/JohnnytheShark/VisualBasicCommands/tree/main"
     },
     {
-        "Title":"SQL",
-        "Description":"Just a few snippets of code to showcase capabilities of using SQL.",
-        "URL":"https://github.com/JohnnytheShark/SQL"
+        "Title":"Simple ASP.NET API Example",
+        "Description":"Simple Example of building an API utilizing ASP.NET",
+        "URL":"https://github.com/JohnnytheShark/SimpleAPI"
     },
     {
         "Title":"Productivity Scripts",
@@ -30,8 +30,8 @@
         "URL":"https://github.com/JohnnytheShark/Productivity"
     },
     {
-        "Title":"Simple ASP.NET API Example",
-        "Description":"Simple Example of building an API utilizing ASP.NET",
-        "URL":"https://github.com/JohnnytheShark/SimpleAPI"
+        "Title": "React Mermaid.JS",
+        "Description":"Simple Example of using Mermaid.js library to create UML diagrams with React. Make sure to open in Firefox or on Desktop for the page to render correctly.",
+        "URL":"https://johnnytheshark.github.io/React_Mermaid/"
     }
 ]
