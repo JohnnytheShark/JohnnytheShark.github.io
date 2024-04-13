@@ -38,6 +38,31 @@ const NewHome = () => {
                 </ul>
             </div>
             <div className={styles.Card2}>
+                <h1>🫀 Unleashing Insights: My Dynamic Run Analytics Dashboard</h1>
+                <p>As a Full-Stack Developer and Data Analyst, I’ve meticulously crafted this showcase—a powerful and user-friendly dashboard.</p>
+                <details>
+                    <summary>More Information</summary>
+                <ol>
+                    <li><b>Purpose: </b>My mission was clear—to create an application that elevates my understanding of runs, workouts, and sprints.🏃‍♂️</li>
+                    <li><b>Features:</b>
+                            <ul>
+                                <li>
+                                    <b>Responsive Design:</b> Whether on desktop or mobile, the dashboard can be viewed.
+                                </li>
+                                <li>
+                                    <b>Open Source:</b> I&apos;ve generously shared this repository for fellow enthusiasts to explore and utilize.
+                                </li>
+                                <li>
+                                    <b>Intuitive Exploration:</b> Seamlessly navigate through interactive charts, graphs, and widgets.
+                                </li>
+                            </ul>
+                    </li>
+                    <li><b>Branding: </b>While the application awaits its official branding, the heart of its functionality beats strong.</li>
+                </ol>
+                </details>
+                <a href="https://JohnnytheShark.github.io/Heart_Story/" target="_blank" rel="noreferrer noopener">👉 Explore the Dashboard</a>
+            </div>
+            <div className={styles.Card2}>
                 <h2>Projects and Repositories</h2>
                 <p>Click on any entry the table below to see the repository or project</p>
             <Table arialabel={"Scripts Built by Jonathan"} caption="Scripts" data={data}/></div>

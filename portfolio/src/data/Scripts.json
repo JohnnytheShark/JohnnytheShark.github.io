@@ -30,6 +30,11 @@
         "URL":"https://github.com/JohnnytheShark/Productivity"
     },
     {
+        "Title": "Heart 🏃🏼 Story",
+        "Description":"Built an analytical dashboard that deciphers heart rate zones during my runs using React.js, Python, and D3.js",
+        "URL":"https://johnnytheshark.github.io/Heart_Story/"
+    },
+    {
         "Title": "React Mermaid.JS",
         "Description":"Simple Example of using Mermaid.js library to create UML diagrams with React. Make sure to open in Firefox or on Desktop for the page to render correctly.",
         "URL":"https://johnnytheshark.github.io/React_Mermaid/"
