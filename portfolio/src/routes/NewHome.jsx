@@ -69,7 +69,7 @@ const NewHome = () => {
             <div className={styles.Card2}>
                 <h2>Contact</h2>
                 <a role="button" className={`${styles.Invite} ${styles.Bounce}`} href="mailto:orellanajonathan7@gmail.com" rel="noopener noreferrer" target="_blank" >Let&apos;s build something amazing together!</a>
-                <a role="button" className={`${styles.Invite} ${styles.Bounce}`} href="/Updated Resume (2).pdf" download="Resume.pdf">Need a copy of my resume?</a>
+                <a role="button" className={`${styles.Invite} ${styles.Bounce}`} href="/Updated Resume (4).pdf" download="Resume.pdf">Need a copy of my resume?</a>
             </div>
                 
 
