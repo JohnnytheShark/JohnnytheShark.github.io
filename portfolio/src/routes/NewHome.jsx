@@ -38,8 +38,28 @@ const NewHome = () => {
                 </ul>
             </div>
             <div className={styles.Card2}>
+                <h1>Better Home Living Home Services</h1>
+                <span>
+                <img className={styles.CompanyLogo} src="/BetterHomeLiving.png" alt="Better Home Living Logo"/>
+                <p>I spearheaded the development of a user-friendly website for Better Home Living Home Services, LLC, a family-owned HVAC company based in North Georgia. Our goal was to create an effective online presence that seamlessly connects customers with our top-tier services.</p>
+                <details>
+                    <summary>More Information</summary>
+                    <ol>
+                        <li><b>Purpose: </b>The website serves as a landing page, driving sales and providing comprehensive information about the services we offer.</li>
+                        <li><b>Features:</b></li>
+                        <ul>
+                           <li><b>Responsive Design:</b> Whether visitors access the site from a desktop or mobile device, they’ll experience a smooth and intuitive interface.</li>
+                            <li><b>Simplicity:</b> I kept the design straightforward, ensuring that anyone seeking assistance can easily reach out via email or phone.</li>
+                        </ul>
+                        <li><b>Branding: </b> As part of the project, I handled graphic design work, creating visually appealing images that reinforce our brand identity.</li>
+                    </ol>
+                </details>
+                </span>
+                <a href="https://betterhomelivingservices.com" target="_blank" rel="noreferrer noopener">Check Out the Site Here</a>
+            </div>
+            <div className={styles.Card2}>
                 <h1>🫀 Unleashing Insights: My Dynamic Run Analytics Dashboard</h1>
-                <p>As a Full-Stack Developer and Data Analyst, I’ve meticulously crafted this showcase—a powerful and user-friendly dashboard.</p>
+                <p>As a Full-Stack Developer and Data Analyst, I&apos;ve meticulously crafted this showcase—a powerful and user-friendly dashboard.</p>
                 <details>
                     <summary>More Information</summary>
                 <ol>
@@ -69,7 +89,7 @@ const NewHome = () => {
             <div className={styles.Card2}>
                 <h2>Contact</h2>
                 <a role="button" className={`${styles.Invite} ${styles.Bounce}`} href="mailto:orellanajonathan7@gmail.com" rel="noopener noreferrer" target="_blank" >Let&apos;s build something amazing together!</a>
-                <a role="button" className={`${styles.Invite} ${styles.Bounce}`} href="/Updated Resume (4).pdf" download="Resume.pdf">Need a copy of my resume?</a>
+                <a role="button" className={`${styles.Invite} ${styles.Bounce}`} href="/Resume-1.pdf" download="Resume.pdf">Need a copy of my resume?</a>
             </div>
                 
 

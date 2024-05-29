@@ -25,7 +25,7 @@
     border-radius: 10px;
     margin-bottom: 10px;
 
-    ul,ol{
+    span > ul,ul,ol,ul > ol{
       text-align: left;
       margin: 10px;
       list-style-position: inside; // Ensure bullet points are inside the list item
@@ -60,6 +60,13 @@
     object-position: 50% 50%;
 }
 
+.CompanyLogo{
+  margin-left: 25px;
+  width: 350px;
+  margin-right: 20px;
+  border-radius: 10px;
+  float: left;
+}
 
 .Invite:hover,button:hover{
     background:#7E6B8F;
@@ -93,6 +100,10 @@
 @media only screen and (max-width: 768px){
     .Card{
         flex-direction: column;
+    }
+    .CompanyLogo{
+      max-width: 350px;
+      float: none;
     }
 }
 
