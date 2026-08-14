@@ -3,6 +3,7 @@
   import Nav from './lib/components/Nav.svelte';
   import Hero from './lib/components/Hero.svelte';
   import About from './lib/components/About.svelte';
+  import Philosophy from './lib/components/Philosophy.svelte';
   import Experience from './lib/components/Experience.svelte';
   import Projects from './lib/components/Projects.svelte';
   import Skills from './lib/components/Skills.svelte';
@@ -33,6 +34,7 @@
 <main>
   <Hero />
   <About />
+  <Philosophy />
   <Experience />
   <Projects />
   <Skills />
