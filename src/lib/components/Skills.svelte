@@ -1,30 +1,5 @@
 <script>
-  const skillGroups = [
-    {
-      label: 'Languages',
-      skills: ['Rust', 'Python', 'JavaScript', 'TypeScript', 'C#', 'SQL'],
-    },
-    {
-      label: 'Frontend',
-      skills: ['Svelte', 'React', 'HTML/CSS', 'Vite'],
-    },
-    {
-      label: 'Backend & APIs',
-      skills: ['ASP.NET', 'Django', 'Node.js', 'REST APIs', 'MCP Protocol'],
-    },
-    {
-      label: 'Data & Automation',
-      skills: ['Alteryx', 'Teradata', 'MS SQL Server', 'DB2', 'SQLite', 'ETL Pipelines'],
-    },
-    {
-      label: 'Cloud & DevOps',
-      skills: ['GCP', 'Docker', 'GitHub Actions', 'Azure', 'PowerApps', 'SharePoint'],
-    },
-    {
-      label: 'AI & Tooling',
-      skills: ['MCP Servers', 'AI Agent Harnesses', 'LLM Integration', 'SQLite FTS5', 'CLI Tools'],
-    },
-  ];
+  import { skillGroups } from '../data/profile.js';
 </script>
 
 <section id="skills" class="skills-section">
