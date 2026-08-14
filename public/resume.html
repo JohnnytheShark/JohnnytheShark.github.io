@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jonathan Orellana - Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text-main: #111827;
+      --text-muted: #4b5563;
+      --accent: #0f172a;
+      --border: #e5e7eb;
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 10pt; /* Standard resume size */
+      line-height: 1.5;
+      color: var(--text-main);
+      background: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .resume-page {
+      background: var(--bg);
+      width: 8.5in;
+      min-height: 11in;
+      padding: 0.5in 0.75in;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    /* Header */
+    header {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: var(--space-md);
+      margin-bottom: var(--space-md);
+    }
+
+    h1 {
+      font-size: 24pt;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.15rem;
+      color: var(--accent);
+    }
+
+    .title {
+      font-size: 12pt;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-bottom: var(--space-sm);
+    }
+
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 9pt;
+      color: var(--text-muted);
+    }
+
+    .contact-info a {
+      color: var(--text-main);
+      text-decoration: none;
+    }
+
+    /* Sections */
+    section {
+      margin-bottom: var(--space-lg);
+    }
+
+    h2 {
+      font-size: 12pt;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.25rem;
+      margin-bottom: var(--space-sm);
+    }
+
+    p.summary {
+      font-size: 9.5pt;
+      color: var(--text-main);
+    }
+
+    /* Philosophy */
+    .philosophy-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem 1rem;
+    }
+
+    .philosophy-item {
+      font-size: 9pt;
+    }
+    .philosophy-item strong {
+      color: var(--accent);
+    }
+
+    /* Experience */
+    .job {
+      margin-bottom: var(--space-md);
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: var(--space-xs);
+    }
+
+    .job-title {
+      font-weight: 600;
+      font-size: 10.5pt;
+    }
+
+    .company {
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    .period {
+      font-size: 9pt;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      font-size: 9.5pt;
+      margin-bottom: 0.25rem;
+      color: var(--text-main);
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 0.25rem 1rem;
+      font-size: 9.5pt;
+    }
+
+    .skill-category {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .skill-list {
+      color: var(--text-muted);
+    }
+
+    /* Education */
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    /* Print Optimization */
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+      .resume-page {
+        box-shadow: none;
+        width: 100%;
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+        color: var(--text-main);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume-page">
+    
+    <header>
+      <h1>Jonathan Orellana</h1>
+      <div class="title">Senior Software Engineer</div>
+      <div class="contact-info">
+        <span>orellanajonathan7@gmail.com</span>
+        <span>(762) 305-8913</span>
+        <a href="https://linkedin.com/in/jonathan-orellana">linkedin.com/in/jonathan-orellana</a>
+        <a href="https://JohnnytheShark.github.io">JohnnytheShark.github.io</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p class="summary">
+        Senior Full-Stack Software Engineer with 7 years of experience turning complex business problems into elegant, automated systems — from applying $15M in unidentified funds daily with a purpose-built ETL pipeline, to orchestrating warehouse replenishment pipelines in Airflow and building AI agent tooling in Rust. I bring a systems-level mindset focused on scale, operational hygiene, and agentic workflows.
+      </p>
+    </section>
+
+    <section>
+      <h2>Engineering Philosophy</h2>
+      <div class="philosophy-grid">
+        <div class="philosophy-item">
+          <strong>Destroy Ambiguity:</strong> Define exact success/failure states before writing code to prevent technical debt.
+        </div>
+        <div class="philosophy-item">
+          <strong>AI-Assisted Architecture:</strong> Leverage LLMs and Diataxis to pressure-test solutions before committing to production.
+        </div>
+        <div class="philosophy-item">
+          <strong>Agentic Tooling:</strong> Build purpose-built MCP servers in Rust to bridge LLM reasoning and local execution.
+        </div>
+        <div class="philosophy-item">
+          <strong>Rigorous Refinement:</strong> Audit for security and compliance; code must fail loudly and pass silently.
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">Software Engineer II</span> <span class="company">| The Home Depot</span></div>
+          <div class="period">2024 — Present</div>
+        </div>
+        <ul>
+          <li>Engineered cloud-native backend services for retail and supply-chain platforms using Java, Spring Boot, GCP (GKE, Cloud Run), and Apache Airflow — orchestrating pipelines that process millions of inventory records daily to drive warehouse replenishment decisions across seasonal demand cycles.</li>
+          <li>Designed and maintained event-driven data workflows using Kafka, Pub/Sub, BigQuery, and SQL, enabling near-real-time operational reporting and downstream decision-making at enterprise scale.</li>
+          <li>Increased engineering velocity and production stability by refactoring legacy components, expanding automated test coverage, and hardening CI/CD pipelines — delivering safer, fully automated deployments to production.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">Systems Analyst</span> <span class="company">| Norfolk Southern</span></div>
+          <div class="period">2021 — 2024</div>
+        </div>
+        <ul>
+          <li>Rebuilt and modernized critical internal applications (time clock, ticketing system, check inventory, security console) using a full-stack approach (ASP.Net, MS SQL, React) to enhance functionality, streamline workflows, and improve user experience across departments.</li>
+          <li>Automated daily SOX control process using RPA to reconcile inbound/outbound charges between internal systems and SAP, ensuring data integrity for KPMG audits.</li>
+          <li>Automated quarterly SOX lease accounting survey using Microsoft PowerApps and SharePoint, eliminating manual form rebuilding and streamlining data collection and distribution.</li>
+          <li>Automated permission requests and Active Directory (AD) tasks by developing PowerShell scripts, streamlining processes and reducing the time needed for user management.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div><span class="job-title">Business Analyst</span> <span class="company">| Norfolk Southern</span></div>
+          <div class="period">2019 — 2021</div>
+        </div>
+        <ul>
+          <li>Developed and deployed an automated ETL pipeline using Alteryx and Python to identify and apply over $15 million in unidentified customer funds daily — extracting remittance data from disparate sources (PDFs, emails, CSVs), matching against invoices in DB2, and eliminating hours of manual research per analyst per day.</li>
+          <li>Led a $150,000 annual efficiency improvement by leveraging Spotfire and Alteryx to streamline cash application processes, reducing manual staffing needs.</li>
+          <li>Empowered colleagues by mentoring staff in Python coding and regular expressions (regex) to facilitate the development of an ETL process for cleaning customer remittances, improving data accuracy and efficiency.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-category">Languages:</div>
+        <div class="skill-list">Rust, Python, JavaScript, TypeScript, Java, C#, SQL</div>
+        
+        <div class="skill-category">Cloud & DevOps:</div>
+        <div class="skill-list">GCP (GKE, Cloud Run), Docker, GitHub Actions, Azure</div>
+        
+        <div class="skill-category">Backend & APIs:</div>
+        <div class="skill-list">Spring Boot, Node.js, ASP.NET, Django, REST APIs, MCP Protocol</div>
+
+        <div class="skill-category">Data & Automation:</div>
+        <div class="skill-list">Apache Airflow, Kafka, BigQuery, Alteryx, Teradata, MS SQL Server, DB2</div>
+
+        <div class="skill-category">AI & Tooling:</div>
+        <div class="skill-list">MCP Servers, AI Agent Harnesses, Local LLM Integration, SQLite FTS5</div>
+        
+        <div class="skill-category">Frontend:</div>
+        <div class="skill-list">Svelte, React, HTML/CSS, Vite</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="edu-header">
+        <div><span class="job-title">Bachelor of Business Administration, Finance</span> <span class="company">| Kennesaw State University</span></div>
+        <div class="period">2015 — 2019</div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>

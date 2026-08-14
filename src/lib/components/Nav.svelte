@@ -40,7 +40,7 @@
         </li>
       {/each}
       <li>
-        <a href="/Resume-1.pdf" class="btn btn-outline nav-resume" download="Jonathan_Orellana_Resume.pdf">
+        <a href="/Jonathan_Orellana_Resume.pdf" class="btn btn-outline nav-resume" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
       </li>
