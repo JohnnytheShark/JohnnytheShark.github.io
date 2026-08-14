@@ -37,8 +37,8 @@
 
     <p class="hero-bio reveal" class:visible={mounted} style="transition-delay: 300ms">
       7 years turning complex business problems into elegant, automated systems —
-      from enterprise ETL pipelines processing <strong>15M records daily</strong> to
-      AI agent tooling written in Rust.
+      from applying <strong>$15M in unidentified funds daily</strong> with a purpose-built ETL pipeline,
+      to orchestrating warehouse replenishment pipelines in Airflow and building AI agent tooling in Rust.
     </p>
 
     <div class="hero-actions reveal" class:visible={mounted} style="transition-delay: 400ms">
@@ -53,13 +53,13 @@
       </div>
       <div class="stat-divider" aria-hidden="true"></div>
       <div class="stat">
-        <span class="stat-number">15M+</span>
-        <span class="stat-label">Records / Day</span>
+        <span class="stat-number">$15M+</span>
+        <span class="stat-label">Applied Daily</span>
       </div>
       <div class="stat-divider" aria-hidden="true"></div>
       <div class="stat">
-        <span class="stat-number">5+</span>
-        <span class="stat-label">AI Tools Shipped</span>
+        <span class="stat-number">M+</span>
+        <span class="stat-label">Records / Pipeline</span>
       </div>
       <div class="stat-divider" aria-hidden="true"></div>
       <div class="stat">
