@@ -2,13 +2,12 @@ export const experiences = [
   {
     company: 'The Home Depot',
     title: 'Software Engineer II',
-    period: '2023 — Present',
+    period: '2024 — Present',
     location: 'Atlanta, GA',
     bullets: [
-      'Design and develop scalable software solutions within a large-scale enterprise environment, collaborating across engineering, product, and business teams.',
-      'Architect and implement features across the full stack, owning code from requirements through deployment and monitoring.',
-      'Drive modernization efforts on critical internal tools, improving developer experience and operational reliability.',
-      'Contribute to code reviews, technical design sessions, and mentorship of junior engineers.',
+      'Developed and supported cloud-native backend services for retail and supply-chain platforms using Java, Spring Boot, REST APIs, and Google Cloud (GKE, Cloud Run), improving system reliability through structured logging, monitoring dashboards, and operational runbooks.',
+      'Designed and maintained data integrations and event-driven workflows using Kafka/Pub-Sub, BigQuery, and SQL to process high-volume operational data, enabling near-real-time reporting and more accurate downstream decision-making.',
+      'Increased engineering velocity and production stability by refactoring legacy components, expanding automated test coverage, and improving CI/CD pipelines to deliver safer, repeatable, and fully automated deployments.',
     ],
   },
   {
