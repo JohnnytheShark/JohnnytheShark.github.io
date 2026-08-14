@@ -1,0 +1,239 @@
+/* ============================================================
+   DESIGN SYSTEM — Jonathan Orellana Portfolio
+   Palette: Earth tones #E2D4B7 / #9C9583 / #A1A499 / #B0BBBF / #CADBC8
+   Typography: Oswald (headings) + Inter (body)
+   ============================================================ */
+
+/* ---------- Reset & Base ---------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Palette */
+  --color-parchment:   #E2D4B7;
+  --color-warm-tan:    #9C9583;
+  --color-sage-grey:   #A1A499;
+  --color-steel-blue:  #B0BBBF;
+  --color-pale-sage:   #CADBC8;
+
+  /* Semantic tokens */
+  --bg-dark:       #1a1916;          /* near-black warm */
+  --bg-card:       #222118;          /* card surface */
+  --bg-card-hover: #292824;
+  --text-primary:  #E2D4B7;          /* parchment — primary text */
+  --text-muted:    #9C9583;          /* warm tan — secondary text */
+  --text-subtle:   #A1A499;          /* sage grey — tertiary */
+  --accent:        #CADBC8;          /* pale sage — links, highlights */
+  --accent-warm:   #B0BBBF;          /* steel blue — alternate accent */
+  --border:        rgba(160, 148, 131, 0.18);
+  --border-accent: rgba(202, 219, 200, 0.35);
+
+  /* Typography */
+  --font-display: 'Oswald', sans-serif;
+  --font-body:    'Inter', sans-serif;
+
+  /* Spacing scale */
+  --space-xs:   0.5rem;
+  --space-sm:   1rem;
+  --space-md:   2rem;
+  --space-lg:   4rem;
+  --space-xl:   7rem;
+  --space-2xl: 10rem;
+
+  /* Layout */
+  --max-width: 1080px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  font-size: 1rem;
+  line-height: 1.65;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ---------- Typography ---------- */
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-primary);
+}
+
+h1 { font-size: clamp(2.8rem, 8vw, 5.5rem); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 600; }
+h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); font-weight: 500; }
+h4 { font-size: 1.1rem; font-weight: 500; }
+
+p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.75;
+  max-width: 68ch;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease),
+              opacity var(--duration-fast) var(--ease);
+}
+
+a:hover { color: var(--text-primary); }
+
+/* ---------- Layout Utilities ---------- */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+section {
+  padding: var(--space-xl) 0;
+}
+
+/* ---------- Section Label ---------- */
+.section-label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-sm);
+  display: block;
+}
+
+/* ---------- Divider ---------- */
+.divider {
+  width: 3rem;
+  height: 2px;
+  background: var(--accent);
+  margin: var(--space-sm) 0 var(--space-md);
+  opacity: 0.6;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease);
+  border: none;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--bg-dark);
+}
+
+.btn-primary:hover {
+  background: var(--text-primary);
+  color: var(--bg-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(202, 219, 200, 0.2);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-accent);
+}
+
+.btn-outline:hover {
+  background: var(--border);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}
+
+/* ---------- Tag / Pill ---------- */
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  background: rgba(160, 160, 153, 0.12);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-subtle);
+}
+
+/* ---------- Scroll Animation ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity var(--duration-slow) var(--ease),
+              transform var(--duration-slow) var(--ease);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-dark); }
+::-webkit-scrollbar-thumb { background: var(--border-accent); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* ---------- Selection ---------- */
+::selection {
+  background: var(--accent);
+  color: var(--bg-dark);
+}
+
+/* ---------- Focus Visible ---------- */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  :root {
+    --space-lg: 2.5rem;
+    --space-xl: 4.5rem;
+  }
+  section { padding: var(--space-lg) 0; }
+  .container { padding: 0 1.25rem; }
+}
+
+@media (max-width: 480px) {
+  :root { --space-xl: 3.5rem; }
+  .container { padding: 0 1rem; }
+}
