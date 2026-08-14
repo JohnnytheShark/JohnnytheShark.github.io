@@ -12,14 +12,25 @@ export const experiences = [
   },
   {
     company: 'Norfolk Southern',
-    title: 'Systems Analyst · Software Engineering',
-    period: '2019 — 2023',
+    title: 'Systems Analyst',
+    period: '2021 — 2024',
     location: 'Atlanta, GA',
     bullets: [
-      'Developed and deployed an automated ETL pipeline using Alteryx and Python to extract, clean, transform, and load remittance data from multiple source formats (PDFs, emails, CSVs, text files) into Teradata for invoice matching in DB2 — processing over 15 million records daily and enabling automated payment application every two hours.',
-      'Rebuilt and modernized critical internal applications — including a time clock system, ticketing platform, check inventory tool, and security console — using ASP.NET, MS SQL Server, and React, improving functionality and UX across Payroll, Miscellaneous Billing, and System Administration departments.',
-      'Automated the quarterly SOX lease accounting survey using Microsoft PowerApps and SharePoint, eliminating manual form rebuilding and streamlining compliance data collection and distribution across the enterprise.',
-      'Worked at the intersection of software development and business analysis, translating operational requirements into maintainable technical solutions across the logistics and finance domains.',
+      'Rebuilt and modernized critical internal applications (time clock, ticketing system, check inventory, security console) using a full-stack approach (ASP.Net, MS SQL, React) to enhance functionality, streamline workflows, and improve user experience across departments.',
+      'Automated daily SOX control process using RPA to reconcile inbound/outbound charges between internal systems and SAP, ensuring data integrity for KPMG audits.',
+      'Automated quarterly SOX lease accounting survey using Microsoft PowerApps and SharePoint, eliminating manual form rebuilding and streamlining data collection and distribution.',
+      'Automated permission requests and Active Directory (AD) tasks by developing PowerShell scripts, streamlining processes and reducing the time needed for user management.',
+    ],
+  },
+  {
+    company: 'Norfolk Southern',
+    title: 'Business Analyst',
+    period: '2019 — 2021',
+    location: 'Atlanta, GA',
+    bullets: [
+      'Developed and deployed an automated ETL process using Alteryx and Python to extract, clean, transform, and load remit data ($15 million daily) from various sources into Teradata for matching with invoices in DB2 SQL tables, enabling automated payment application every two hours.',
+      'Led a $150,000 annual efficiency improvement by leveraging Spotfire and Alteryx to streamline cash application processes, reducing manual staffing needs.',
+      'Empowered colleagues by mentoring staff in Python coding and regular expressions (regex) to facilitate the development of an ETL process for cleaning customer remittances, improving data accuracy and efficiency.',
     ],
   },
 ];
