@@ -18,7 +18,7 @@
     },
     {
       label: 'Cloud & DevOps',
-      skills: ['Docker', 'GitHub Actions', 'Azure', 'PowerApps', 'SharePoint'],
+      skills: ['GCP', 'Docker', 'GitHub Actions', 'Azure', 'PowerApps', 'SharePoint'],
     },
     {
       label: 'AI & Tooling',

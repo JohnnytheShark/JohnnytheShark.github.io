@@ -6,8 +6,9 @@
       <div class="divider reveal" style="transition-delay: 100ms"></div>
 
       <p class="contact-subtext reveal" style="transition-delay: 140ms">
-        I'm open to senior engineering roles, consulting engagements, and interesting technical
-        conversations. If you're building something serious, I'd like to hear about it.
+        I'm open to Senior and Staff-level engineering roles, consulting engagements, and
+        high-signal technical conversations. If you're building something that demands both
+        architectural depth and hands-on execution, let's talk.
       </p>
 
       <div class="contact-actions reveal" style="transition-delay: 200ms">

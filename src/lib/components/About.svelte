@@ -34,8 +34,10 @@
 
       <p class="reveal" style="transition-delay: 260ms">
         Lately I've been building at the intersection of Rust and AI — designing MCP servers,
-        agent harnesses, and local LLM tooling. I mentor engineers, and I build indie games on the side.
-        The imposter syndrome is long gone. What's left is the work.
+        agent harnesses, and local LLM tooling. I understand the full system: the architecture
+        decisions, the tradeoffs at scale, and the organizational dynamics that make or break
+        a team. I mentor engineers because strong teams multiply output. I ship indie games because
+        creative ownership sharpens your instinct for what actually matters.
       </p>
 
       <div class="about-links reveal" style="transition-delay: 320ms">
